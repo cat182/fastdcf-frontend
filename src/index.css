@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font: 18px/18px sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.75em;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.react-row {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.react-cell {
+  border-style: solid;
+  border-top: unset;
+  border-width: 1px;
+  border-left: unset;
+  border-color: rgba(0, 0, 0, 0.103);
+}
+
+.react-cell-bis {
+  border-style: solid;
+  border-top: unset;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.103);
+}
+
+.react-cell-tres {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.103);
+}
+
+.react-cell-quatro {
+  border-style: solid;
+  border-width: 1px;
+  border-left: unset;
+  border-color: rgba(0, 0, 0, 0.103);
+}
+
+.resize-container {
+  display: inline-block;
+  position: relative;
+}
+
+.resize-input,
+.resize-text {
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.resize-text {
+  display: inline-block;
+  visibility: hidden;
+  white-space: pre;
+}
+  
+.resize-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

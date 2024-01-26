@@ -1,0 +1,8 @@
+mathjs
+react
+react-toastify
+dois-je mettre create react app ?
+https://www.bennadel.com/blog/3460-automatically-scroll-the-window-when-the-user-approaches-the-viewport-edge-in-javascript.htm
+mathjax
+react-router-dom
+fontawesome
